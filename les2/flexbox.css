@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    background-color: aliceblue;
+    height: 500px;
+    border: 1px solid #282828;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item {
+    height: 100px;
+    width: 100px;
+    background-color: lightpink;
+    padding: 30px;
+    border: 1px solid #282828;
+    font-size: 20px;
+}
