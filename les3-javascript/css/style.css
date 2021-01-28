@@ -1,4 +1,6 @@
 #fotoslider {
+    position: absolute;
+    left: 0;
     display: flex;
     flex-direction: row;
 }
@@ -16,4 +18,10 @@ img {
 
 body {
     margin: 0px;
+}
+
+#viewport {
+    position: relative;
+    width: 400px;
+    height: 300px;
 }

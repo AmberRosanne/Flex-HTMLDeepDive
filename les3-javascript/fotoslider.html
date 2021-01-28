@@ -8,19 +8,28 @@
     <script>
         function setupFotoslider() {
             let fotonummer, fotobreedte, aantalfotos, fotoslider;
-        //alert("Ja, het script werkt!");
+            fotonummer = 0;
+            fotobreedte = 400; // Pas dit aan naar de breedte van jouw foto's
+
+            fotoslider = "fotoslider" /* HAAL DE FOTOSLIDER DIV OP, GEBRUIK DE ID! */
+            let volgendeKnop = "volgende-btn"/* HAAL DE VOLGENDE BUTTON OP, GEBRUIK DE ID! */
+            let vorigeKnop = "vorige-btn" /* HAAL DE VORIGE BUTTON OP, GEBRUIK DE ID! */
+            //alert("Ja, het script werkt!");
         }
         window.addEventListener('DOMContentLoaded', setupFotoslider)
     </script>
 </head>
 <body>
-    <div id="fotoslider">
-        <div class="foto"><img src="images/foto1.jpg"></div>
-        <div class="foto"><img src="images/foto2.jpg"></div>
-        <div class="foto"><img src="images/foto3.jpg"></div>
-        <div class="foto"><img src="images/foto4.jpg"></div>
-        <div class="foto"><img src="images/foto5.jpg"></div>
-    </div>  
+    <div id="viewport">
+        <div id="fotoslider">
+             <div class="foto"><img src="images/foto1.jpg"></div>
+             <div class="foto"><img src="images/foto2.jpg"></div>
+             <div class="foto"><img src="images/foto3.jpg"></div>
+             <div class="foto"><img src="images/foto4.jpg"></div>
+              <div class="foto"><img src="images/foto5.jpg"></div>
+        </div>  
+    </div>
+
     <div id="controls">
         <button id="vorige-btn">Vorige</button>
         <button id="volgende-btn">Volgende</button>
