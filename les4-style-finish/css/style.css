@@ -28,6 +28,10 @@ body {
     width: 400px;
     height: 300px;
     overflow: hidden;
+    border: pink solid 2px;
+    -webkit-box-shadow: 5px 5px 15px 2px #282828; 
+    box-shadow: 5px 5px 15px 2px #282828;
+    border-radius: 20px;
 }
 
 #design {
@@ -36,9 +40,20 @@ body {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    background-color: pink;
+    background-color: whitesmoke;
 }
 
 #controls {
-    padding: 10px;
+    padding: 20px;
+}
+
+.knoppen {
+    background-color: #282828;
+    padding: 15px;
+    color: lightpink;
+    font-size: 14px;
+    border: pink solid 2px;
+    -webkit-box-shadow: 5px 5px 15px 2px #282828; 
+    box-shadow: 5px 5px 15px 2px #282828;
+    border-radius: 10px;
 }
