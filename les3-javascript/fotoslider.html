@@ -6,7 +6,11 @@
     <title>Fotoslider</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script>
-        
+        function setupFotoslider() {
+            let fotonummer, fotobreedte, aantalfotos, fotoslider;
+        //alert("Ja, het script werkt!");
+        }
+        window.addEventListener('DOMContentLoaded', setupFotoslider)
     </script>
 </head>
 <body>
@@ -17,5 +21,9 @@
         <div class="foto"><img src="images/foto4.jpg"></div>
         <div class="foto"><img src="images/foto5.jpg"></div>
     </div>  
+    <div id="controls">
+        <button id="vorige-btn">Vorige</button>
+        <button id="volgende-btn">Volgende</button>
+    </div>
 </body>
 </html>
